@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Mail
-%define	pnam	Webmail-Gmail
+%define		pdir	Mail
+%define		pnam	Webmail-Gmail
 Summary:	Mail::Webmail::Gmail - An interface to Google's webmail service
 Summary(pl):	Mail::Webmail::Gmail - Interfejs do serwisu Google webmail
 Name:		perl-Mail-Webmail-Gmail
