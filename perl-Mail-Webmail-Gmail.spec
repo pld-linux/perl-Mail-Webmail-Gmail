@@ -6,7 +6,7 @@
 %define		pdir	Mail
 %define		pnam	Webmail-Gmail
 Summary:	Mail::Webmail::Gmail - An interface to Google's webmail service
-Summary(pl):	Mail::Webmail::Gmail - Interfejs do serwisu Google webmail
+Summary(pl.UTF-8):   Mail::Webmail::Gmail - Interfejs do serwisu Google webmail
 Name:		perl-Mail-Webmail-Gmail
 Version:	1.00
 Release:	1
@@ -30,12 +30,12 @@ this module in line with the changes they make, but, if after updating
 to the newest version of this module, the feature that you require
 still doesn't work, please contact me with the issue.
 
-%description -l pl
-Poniewa¿ Gmail jest aktualnie w stanie testów beta, ten modu³ mo¿e
-przestaæ dzia³aæ w miarê uaktualnieñ ich interfejsu. Autor bêdzie
-próbowa³ utrzymaæ ten modu³ w synchronizacji ze zmianami, ale, je¶li
-po uaktualnieniu do najnowszej wersji modu³u, jaka¶ opcja nadal nie
-dzia³a, nale¿y siê skontaktowaæ z autorem.
+%description -l pl.UTF-8
+PoniewaÅ¼ Gmail jest aktualnie w stanie testÃ³w beta, ten moduÅ‚ moÅ¼e
+przestaÄ‡ dziaÅ‚aÄ‡ w miarÄ™ uaktualnieÅ„ ich interfejsu. Autor bÄ™dzie
+prÃ³bowaÅ‚ utrzymaÄ‡ ten moduÅ‚ w synchronizacji ze zmianami, ale, jeÅ›li
+po uaktualnieniu do najnowszej wersji moduÅ‚u, jakaÅ› opcja nadal nie
+dziaÅ‚a, naleÅ¼y siÄ™ skontaktowaÄ‡ z autorem.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
