@@ -6,7 +6,7 @@
 %define		pdir	Mail
 %define		pnam	Webmail-Gmail
 Summary:	Mail::Webmail::Gmail - An interface to Google's webmail service
-Summary(pl.UTF-8):   Mail::Webmail::Gmail - Interfejs do serwisu Google webmail
+Summary(pl.UTF-8):	Mail::Webmail::Gmail - Interfejs do serwisu Google webmail
 Name:		perl-Mail-Webmail-Gmail
 Version:	1.00
 Release:	1
