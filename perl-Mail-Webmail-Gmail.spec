@@ -8,13 +8,13 @@
 Summary:	Mail::Webmail::Gmail - An interface to Google's webmail service
 Summary(pl.UTF-8):	Mail::Webmail::Gmail - Interfejs do serwisu Google webmail
 Name:		perl-Mail-Webmail-Gmail
-Version:	1.00
+Version:	1.09
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f860aa79971fa2f1eb1866f825dd5220
+# Source0-md5:	441c0eac1fa6afac777b0404dec79ed2
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
