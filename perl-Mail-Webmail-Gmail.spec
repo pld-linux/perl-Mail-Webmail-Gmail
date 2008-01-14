@@ -9,7 +9,7 @@ Summary:	Mail::Webmail::Gmail - An interface to Google's webmail service
 Summary(pl.UTF-8):	Mail::Webmail::Gmail - Interfejs do serwisu Google webmail
 Name:		perl-Mail-Webmail-Gmail
 Version:	1.09
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -60,5 +60,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/Mail/Webmail
 %{perl_vendorlib}/Mail/Webmail/*.pm
 %{_mandir}/man3/*
